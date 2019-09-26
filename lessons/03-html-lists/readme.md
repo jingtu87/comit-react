@@ -29,11 +29,11 @@ This type of list also accepts `<li>` elements as children.
 
 ```html
 <h1>Top 3 Populated Countries:</h1>
-<ul>
+<ol>
   <li>China - 1,389,618,778</li>
   <li>India - 1,311,559,204</li>
   <li>United States - 331,883,986</li>
-</ul>
+</ol>
 ```
 
 ## Description or Definition List
