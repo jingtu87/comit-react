@@ -22,13 +22,25 @@
       nav a {
         color: green;
       }
+
+      .my-header {
+        text-align: center;
+      }
+
+      .my-header .my-nav a {
+        color:#00aced;
+      }
+
+      .my-content p{
+        font-size: 14px;
+      }
     </style>
   </head>
   <body>
-    <header>
+    <header class="my-header">
       <h1>Home Page</h1>
 
-      <nav>
+      <nav class="my-nav">
         <ul>
           <li>
             <a href="#">Home</a>
@@ -43,7 +55,7 @@
       </nav>
     </header>
 
-    <section>
+    <section class="my-content">
       <p>
         Lorem ipsum <a href="#">dolor sit amet</a>, consectetur adipisicing
         elit. Veniam corporis aspernatur, obcaecati, voluptate veritatis ad
